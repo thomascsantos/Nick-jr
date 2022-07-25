@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    background-color: #561786;
+    color: white;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 90px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.pai-logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+.programacao {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.baby-shark {
+    margin-top: 40px;
+    border-radius: 10px;
+    filter: brightness(.6);
+
+}
+
+.baby-shark:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.texto-baby {
+    width: 380px;
+    font-size: 18px;
+    position: absolute;
+    left: 40px;
+    top: 380px;
+
+}
+
+.headerBaby {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 28px;
+}
+
+.baby {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.headerprogramacao {
+    color: #7FD7E3;
+    font-family: 9px;
+    margin-top: 20px;
+}
+
+.primeira {
+    display: flex;
+    flex-direction: row;
+}
+
+.blaze {
+    border-radius: 6px;
+    margin-top: 60px;
+    width: 389px;
+    height: 342px;
+    background-color: #401164;
+    margin-right: 20px;
+}
+
+.blaze:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+
+}
+
+.texto-blaze {
+    padding: 15px 20px 0px 20px;
+}
+
+.image-blaze {
+    height: 218px;
+    border-radius: 6px;
+
+}
+
+.header-blaze {
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.frase-blaze {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.anna {
+    border-radius: 6px;
+    margin-top: 60px;
+    width: 389px;
+    height: 342px;
+    background-color: #401164;
+    margin-right: 20px;
+}
+
+.anna:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.texto-anna {
+    padding: 15px 20px 0px 20px;
+}
+
+.image-anna {
+    height: 218px;
+    border-radius: 6px;
+
+}
+
+.header-anna {
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.frase-anna {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.garden {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.garden {
+    border-radius: 6px;
+    margin-top: 60px;
+    width: 389px;
+    height: 342px;
+    background-color: #401164;
+}
+
+.garden:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.texto-garden {
+    padding: 15px 20px 0px 20px;
+}
+
+.image-garden {
+    height: 218px;
+    border-radius: 6px;
+
+}
+
+.header-garden {
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.frase-garden {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.segunda {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.patrulha {
+    border-radius: 6px;
+    margin-top: 60px;
+    width: 389px;
+    height: 342px;
+    background-color: #401164;
+    margin-right: 20px;
+}
+
+.patrulha:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.texto-patrulha {
+    padding: 15px 20px 0px 20px;
+}
+
+.image-patrulha {
+    height: 218px;
+    border-radius: 6px;
+
+}
+
+.header-patrulha {
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.frase-patrulha {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.santiago {
+    border-radius: 6px;
+    margin-top: 60px;
+    width: 389px;
+    height: 342px;
+    background-color: #401164;
+    margin-right: 20px;
+}
+
+.santiago:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.texto-santiago {
+    padding: 15px 20px 0px 20px;
+}
+
+.image-santiago {
+    height: 218px;
+    border-radius: 6px;
+
+}
+
+.header-santiago {
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.frase-santiago {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.blue {
+    border-radius: 6px;
+    margin-top: 60px;
+    width: 389px;
+    height: 342px;
+    background-color: #401164;
+}
+
+.blue:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.texto-blue {
+    padding: 15px 20px 0px 20px;
+}
+
+.image-blue {
+    height: 218px;
+    border-radius: 6px;
+
+}
+
+.header-blue {
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.frase-blue {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.baixo {
+    background-color: #3B3B3B;
+    text-align: center;
+    height: 168px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+.baixo-texto>h2 {
+    padding: 30px;
+    font-size: 24px;
+}
+
+.baixo-paragrafo>span {
+    display: inline-block;
+    font-size: 14px;
+    width: 650px;
+    font-family: sans-serif;
+}
+
+.geral {
+    background-color: #000000;
+    height: 268px;
+    font-size: 12px;
+    max-width: 100%;
+}
+
+.ul-politica {
+    display: flex;
+    justify-content: center;
+}
+
+.ul-politica>li {
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+li>a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #767676;
+    font-size: 14px;
+}
+
+.icons>ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-icons>li {
+    margin-top: 60px;
+    margin-right: 30px;
+
+}
+
+.rodape {
+    text-align: center;
+    color: #767676;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width:399px) and (min-width:200px) {
+    body {
+        overflow-y: none;
+    }
+
+    .header {
+        width: 150%;
+        height: 40px;
+    }
+
+    .logo {
+        margin-top: 0px;
+        display: block;
+        width: 120px;
+        height: 30px;
+    }
+
+    .programacao {
+        display: none;
+    }
+
+    .texto-baby {
+        width: 380px;
+        font-size: 8px;
+        position: absolute;
+        top: 160px;
+        left: 10px;
+    }
+
+    .baby {
+        font-size: 10px;
+    }
+
+    .main {
+        margin-left: 60%;
+    }
+
+    .baby-shark {
+        height: 218px;
+        width: 389px;
+    }
+
+    .primeira {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .segunda {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .baixo-paragrafo>span {
+        width: 100%;
+    }
+
+    .ul-politica>li {
+        width: 13%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    footer {
+        width: 150%;
+    }
+
+    .baixo-paragrafo>span {
+        width: 100%;
+    }
+
+    .baixo-geral {
+        width: 150%;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width:400px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .header {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .logo {
+        margin: auto;
+        margin-top: 0px;
+        display: block;
+        width: 120px;
+        height: 30px;
+    }
+
+    .programacao {
+        display: none;
+    }
+
+    .baby-shark {
+        height: 218px;
+        width: 389px;
+    }
+
+    .main {
+        margin-left: 3%;
+    }
+
+    .primeira {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .segunda {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-baby {
+        width: 380px;
+        font-size: 10px;
+        position: absolute;
+        top: 190px;
+    }
+
+
+    .baixo-texto>h2 {
+        padding: 16px;
+        font-size: 24px;
+    }
+
+    .baixo-paragrafo>span {
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .ul-politica>li {
+        margin: 10px;
+    }
+
+    .baixo-paragrafo>span {
+        width: 100%;
+    }
+
+    .baby {
+        height: 168px;
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width:1000px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .header {
+        position: relative;
+        height: 30px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: auto;
+    }
+
+    .logo {
+        margin-top: 0px;
+        display: block;
+        width: 120px;
+        height: 30px;
+    }
+
+    .programacao {
+        display: none;
+    }
+
+    .baby-shark {
+        height: 418px;
+        width: 689px;
+
+    }
+    .main {
+      margin-left: 30%;
+           
+    }
+
+    .texto-baby {
+        width: 280px;
+        font-size: 10px;
+        position: absolute;
+        top: 350px;
+    }
+
+    .primeira {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-right: 200px;
+    }
+
+    .blaze {        border-radius: 6px;
+        height: 418px;
+        width: 689px;
+        background-color: #401164;
+    }
+
+    .image-blaze {
+        height: 318px;
+        width: 689px;
+        border-radius: 6px;
+    }
+
+    .anna {
+        border-radius: 6px;
+        width: 334px;
+    }
+
+    .image-anna {
+        border-radius: 6px;
+        width: 334px;
+    }
+
+    .garden {
+        border-radius: 6px;
+        width: 334px;
+
+    }
+
+    .image-garden {
+        width: 334px;
+    }
+
+    .segunda {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-right: 200px;
+    }
+
+    .patrulha {
+        border-radius: 6px;
+        height: 418px;
+        width: 689px;
+        background-color: #401164;
+    }
+
+    .image-patrulha {
+        height: 318px;
+        width: 689px;
+        border-radius: 6px;
+
+    }
+
+    .blue {
+        border-radius: 6px;
+        width: 334px;
+    }
+
+    .image-blue {
+        border-radius: 6px;
+        width: 334px;
+    }
+
+    .santiago {
+        border-radius: 6px;
+        width: 334px;
+    }
+
+    .image-santiago {
+        width: 334px;
+    }
+
+    .baixo {
+        width: 100%;
+    }
+
+    .geral {
+        width: 100%;
+    }
+}
