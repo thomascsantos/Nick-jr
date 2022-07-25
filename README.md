@@ -5,5 +5,7 @@ media query o site ficou responsivo também para celular, porem ainda da pra mel
 espero que gostem link do projeto abaixo
 
 segue o link do projeto no ar  <a href="https://thomascsantos.github.io/Nick-jr/Index.html">Clique aqui</a>
+<br>
 segue o link do projeto no ar  <a href="https://exercicio-nickjr.netlify.app/">Segunda opção</a>
+<br>
 site oficial <a href="https://www.nickjr.com.br/">Oficial</a> 
