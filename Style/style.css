@@ -7,7 +7,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
 }
 
 body {
@@ -97,6 +96,14 @@ body {
 .primeira {
     display: flex;
     flex-direction: row;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
 }
 
 .blaze {
@@ -384,20 +391,36 @@ li>a {
     font-size: 14px;
 }
 
-@media screen and (max-width:399px) and (min-width:200px) {
-    body {
-        overflow-y: none;
+@media screen and (min-width:200px)and (max-width:399px) {
+
+
+    .header {
+        height: 30px;
+        background-color: #FFFFFF;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
     }
 
     .header {
-        width: 150%;
         height: 40px;
     }
 
     .logo {
         margin-top: 0px;
         display: block;
-        width: 120px;
+        width: 100%;
         height: 30px;
     }
 
@@ -418,7 +441,8 @@ li>a {
     }
 
     .main {
-        margin-left: 60%;
+      display: flex;
+      flex-direction: column;
     }
 
     .baby-shark {
@@ -448,7 +472,7 @@ li>a {
     }
 
     footer {
-        width: 150%;
+        width: 100%;
     }
 
     .baixo-paragrafo>span {
@@ -456,15 +480,25 @@ li>a {
     }
 
     .baixo-geral {
-        width: 150%;
+        width: 100%;
     }
 }
 
 
 
-@media only screen and (max-width: 600px) and (min-width:400px) {
+@media only screen and (min-width:400px) and (max-width: 699px) {
     * {
         overflow-x: hidden;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
     }
 
     .header {
@@ -541,11 +575,7 @@ li>a {
 }
 
 
-@media only screen and (min-width: 601px) and (max-width:1000px) {
-    body {
-        overflow-x: hidden;
-        width: 100%;
-    }
+@media only screen and (min-width: 700px) and (max-width:999px) {
 
     .header {
         position: relative;
@@ -573,11 +603,6 @@ li>a {
     .baby-shark {
         height: 418px;
         width: 689px;
-
-    }
-    .main {
-      margin-left: 30%;
-           
     }
 
     .texto-baby {
@@ -585,16 +610,28 @@ li>a {
         font-size: 10px;
         position: absolute;
         top: 350px;
+        left: 17%;
     }
+
+    .image-baby {
+        display: flex;
+        justify-content: center;
+    }
+
 
     .primeira {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
-        flex-direction: row;
-        margin-right: 200px;
     }
 
-    .blaze {        border-radius: 6px;
+    .first {
+        display: flex;
+    }
+
+    .blaze {
+        margin-right: 0px;
+        border-radius: 6px;
         height: 418px;
         width: 689px;
         background-color: #401164;
@@ -609,6 +646,7 @@ li>a {
     .anna {
         border-radius: 6px;
         width: 334px;
+        margin-right: 21px;
     }
 
     .image-anna {
@@ -628,12 +666,16 @@ li>a {
 
     .segunda {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
-        flex-direction: row;
-        margin-right: 200px;
+    }
+
+    .second {
+        display: flex;
     }
 
     .patrulha {
+        margin-right: 0px;
         border-radius: 6px;
         height: 418px;
         width: 689px;
@@ -644,7 +686,6 @@ li>a {
         height: 318px;
         width: 689px;
         border-radius: 6px;
-
     }
 
     .blue {
@@ -658,6 +699,7 @@ li>a {
     }
 
     .santiago {
+
         border-radius: 6px;
         width: 334px;
     }
