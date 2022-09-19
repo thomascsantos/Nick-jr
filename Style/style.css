@@ -393,7 +393,6 @@ li>a {
 
 @media screen and (min-width:200px)and (max-width:399px) {
 
-
     .header {
         height: 30px;
         background-color: #FFFFFF;
@@ -441,8 +440,8 @@ li>a {
     }
 
     .main {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
     .baby-shark {
@@ -487,8 +486,13 @@ li>a {
 
 
 @media only screen and (min-width:400px) and (max-width: 699px) {
-    * {
-        overflow-x: hidden;
+    .header {
+        height: 30px;
+        background-color: #FFFFFF;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: 100%;
     }
 
     .first {
@@ -706,6 +710,149 @@ li>a {
 
     .image-santiago {
         width: 334px;
+    }
+
+    .baixo {
+        width: 100%;
+    }
+
+    .geral {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width:1200px) {
+    .header {
+        position: relative;
+        height: 30px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: auto;
+    }
+
+    .logo {
+        margin-top: 0px;
+        display: block;
+        width: 120px;
+        height: 30px;
+    }
+
+    .programacao {
+        display: none;
+    }
+
+    .baby-shark {
+        height: 518px;
+        width: 989px;
+    }
+
+    .texto-baby {
+        width: 280px;
+        font-size: 10px;
+        position: absolute;
+        top: 450px;
+        left: 10%;
+    }
+
+    .image-baby {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .primeira {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .first {
+        display: flex;
+    }
+
+    .blaze {
+        margin-right: 0px;
+        border-radius: 6px;
+        height: 518px;
+        width: 989px;
+        background-color: #401164;
+    }
+
+    .image-blaze {
+        height: 418px;
+        width: 989px;
+        border-radius: 6px;
+    }
+
+    .anna {
+        border-radius: 6px;
+        width: 495px;
+        margin-right: 21px;
+    }
+
+    .image-anna {
+        border-radius: 6px;
+        width: 495px;
+    }
+
+    .garden {
+        border-radius: 6px;
+        width: 481px;
+    }
+
+    .image-garden {
+        width: 481px;
+    }
+
+    .segunda {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .second {
+        display: flex;
+    }
+
+    .patrulha {
+        margin-right: 0px;
+        border-radius: 6px;
+        height: 518px;
+        width: 989px;
+        background-color: #401164;
+    }
+
+    .image-patrulha {
+        height: 418px;
+        width: 989px;
+        border-radius: 6px;
+    }
+
+    .blue {
+        border-radius: 6px;
+        width: 486px;
+       
+    }
+
+    .image-blue {
+        border-radius: 6px;
+        width: 486px;
+       
+    }
+
+    .santiago {
+        border-radius: 6px;
+        width: 490px;
+        margin-right: 21px;
+    }
+
+    .image-santiago {
+        border-radius: 6px;
+        width: 490px;
     }
 
     .baixo {
